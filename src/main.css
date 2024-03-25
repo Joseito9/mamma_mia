@@ -1,0 +1,67 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: fit-content;
+  padding: 10px;
+}
+.card-img {
+  border-radius: 20px;
+}
+.cart-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.card {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.card-title {
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery-detail {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.card-container {
+  width: 400px;
+}
+.cart-text {
+  font-weight: bold;
+}
+.total-cart {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+.price-btn-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
